@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RevealHideView">
         <activity
+            android:name=".CardFlipAnimationActivity"
+            android:label="@string/card_flip_animation_activity"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENTACTIVITY"
+                android:value="com.example.revealhideview.MainActivity"/>
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
